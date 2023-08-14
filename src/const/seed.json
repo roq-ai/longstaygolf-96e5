@@ -1,0 +1,1382 @@
+[
+  {
+    "property": [
+      {
+        "id": "42cd43fe-1b8f-44cb-bef5-97ef998551ce",
+        "name": "Cozy Cottage",
+        "type": "Residential",
+        "created_at": "2023-08-14T07:35:15.296Z",
+        "updated_at": "2023-08-14T07:29:05.119Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "45e975fa-9192-4ab7-891a-a0b36cc10051",
+        "name": "Modern Condo",
+        "type": "Commercial",
+        "created_at": "2023-08-13T19:56:11.131Z",
+        "updated_at": "2023-08-14T04:32:27.576Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "80077b3d-0057-4aa9-85c2-4dcbc0f1375d",
+        "name": "Spacious Villa",
+        "type": "Vacation",
+        "created_at": "2023-08-14T04:36:55.084Z",
+        "updated_at": "2023-08-14T06:11:23.124Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2fad367a-6b11-41be-abf8-04d88ad266db",
+        "name": "Rustic Cabin",
+        "type": "Industrial",
+        "created_at": "2023-08-14T13:24:37.342Z",
+        "updated_at": "2023-08-14T02:10:26.602Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6dbec7c3-8dbb-452d-afa7-8f7b4fe89701",
+        "name": "Luxury Mansion",
+        "type": "Retail",
+        "created_at": "2023-08-14T02:47:27.008Z",
+        "updated_at": "2023-08-13T20:36:17.341Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "d3c79120-ddcc-4925-873f-e1d2ee1b4485",
+        "start_date": "2023-08-13T23:42:08.068Z",
+        "end_date": "2023-08-14T02:58:29.255Z",
+        "created_at": "2023-08-14T10:10:32.197Z",
+        "updated_at": "2023-08-14T03:35:10.731Z",
+        "property_id": "6dbec7c3-8dbb-452d-afa7-8f7b4fe89701",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa66a080-3678-498c-abb6-92ed3f790680",
+        "start_date": "2023-08-14T02:13:38.987Z",
+        "end_date": "2023-08-13T17:40:22.916Z",
+        "created_at": "2023-08-13T17:31:36.193Z",
+        "updated_at": "2023-08-14T05:04:41.204Z",
+        "property_id": "2fad367a-6b11-41be-abf8-04d88ad266db",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9012d53b-fe70-44d2-9749-0197540ba642",
+        "start_date": "2023-08-14T11:39:54.919Z",
+        "end_date": "2023-08-14T01:09:50.941Z",
+        "created_at": "2023-08-14T10:29:24.286Z",
+        "updated_at": "2023-08-13T16:52:37.171Z",
+        "property_id": "42cd43fe-1b8f-44cb-bef5-97ef998551ce",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "45a51a10-ac33-4d0b-a421-06a1df704754",
+        "start_date": "2023-08-14T15:28:14.502Z",
+        "end_date": "2023-08-14T10:46:54.009Z",
+        "created_at": "2023-08-14T08:30:48.585Z",
+        "updated_at": "2023-08-14T01:18:39.907Z",
+        "property_id": "6dbec7c3-8dbb-452d-afa7-8f7b4fe89701",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fde9016f-6494-4899-bc62-9d725ca15409",
+        "start_date": "2023-08-14T11:17:58.139Z",
+        "end_date": "2023-08-13T22:44:44.632Z",
+        "created_at": "2023-08-14T03:09:12.449Z",
+        "updated_at": "2023-08-14T14:29:53.177Z",
+        "property_id": "80077b3d-0057-4aa9-85c2-4dcbc0f1375d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "280fe790-25ee-4c6e-b9b6-b68f434a6a20",
+        "email": "Lamont88@hotmail.com",
+        "firstName": "Hyman",
+        "lastName": "Friesen-Schuster",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/165.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "91e24c2e-ea0e-4375-a464-aa7d7bd88392",
+        "email": "Reginald61@gmail.com",
+        "firstName": "Anita",
+        "lastName": "Miller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/527.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "10f3c104-7854-4ae2-8cb2-99f3e0206e86",
+        "email": "Eli8@hotmail.com",
+        "firstName": "Adam",
+        "lastName": "Nitzsche",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/747.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "29977827-a559-4919-8773-249a06cb12c0",
+        "email": "Diamond_Gislason@gmail.com",
+        "firstName": "Joyce",
+        "lastName": "Moen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10783777",
+        "tenantId": null
+      },
+      {
+        "reference": "52f31346-d48f-4e00-ae7c-466f069be12f",
+        "email": "Rosie43@yahoo.com",
+        "firstName": "Estelle",
+        "lastName": "Stracke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71396726",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "property": [
+      {
+        "id": "962fb6aa-12df-4b5b-b82a-552344c5d047",
+        "name": "Cozy Cottage",
+        "type": "Residential",
+        "created_at": "2023-08-14T00:11:00.287Z",
+        "updated_at": "2023-08-14T09:30:20.903Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3079fe9d-7fe8-4365-93b1-b2251ce27494",
+        "name": "Modern Condo",
+        "type": "Commercial",
+        "created_at": "2023-08-14T13:45:49.461Z",
+        "updated_at": "2023-08-13T20:07:46.479Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "41234ce5-aa76-4018-95f1-60ef8a48a542",
+        "name": "Spacious Villa",
+        "type": "Vacation",
+        "created_at": "2023-08-14T16:37:29.504Z",
+        "updated_at": "2023-08-14T06:57:13.915Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "66266068-e2ea-48dc-b22a-01c6ea3f2b06",
+        "name": "Rustic Cabin",
+        "type": "Industrial",
+        "created_at": "2023-08-14T07:16:08.367Z",
+        "updated_at": "2023-08-14T09:39:13.486Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "dfdc630d-f38b-40bd-8fd5-ff8c1bd5546f",
+        "name": "Luxury Mansion",
+        "type": "Retail",
+        "created_at": "2023-08-14T02:40:03.611Z",
+        "updated_at": "2023-08-14T08:34:22.415Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "4f853df5-3298-4516-869b-10dc6774e771",
+        "start_date": "2023-08-13T21:56:38.447Z",
+        "end_date": "2023-08-14T00:45:37.832Z",
+        "created_at": "2023-08-14T11:06:00.127Z",
+        "updated_at": "2023-08-13T22:16:48.332Z",
+        "property_id": "41234ce5-aa76-4018-95f1-60ef8a48a542",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15a8ab01-cc9b-4f55-9c33-dfd2051965ee",
+        "start_date": "2023-08-13T21:55:56.915Z",
+        "end_date": "2023-08-14T04:55:45.229Z",
+        "created_at": "2023-08-13T22:19:17.846Z",
+        "updated_at": "2023-08-14T05:50:15.909Z",
+        "property_id": "41234ce5-aa76-4018-95f1-60ef8a48a542",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de627949-7789-4e43-ba06-db300a32f792",
+        "start_date": "2023-08-14T04:02:19.475Z",
+        "end_date": "2023-08-13T16:51:06.548Z",
+        "created_at": "2023-08-14T15:34:37.186Z",
+        "updated_at": "2023-08-13T22:16:15.593Z",
+        "property_id": "3079fe9d-7fe8-4365-93b1-b2251ce27494",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "94353672-68fd-425c-8bff-186343352249",
+        "start_date": "2023-08-14T00:15:58.902Z",
+        "end_date": "2023-08-14T09:02:44.590Z",
+        "created_at": "2023-08-14T09:04:31.574Z",
+        "updated_at": "2023-08-14T14:30:41.138Z",
+        "property_id": "3079fe9d-7fe8-4365-93b1-b2251ce27494",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17a2cd88-d17d-42fb-b89c-e011ea9c0486",
+        "start_date": "2023-08-14T09:00:28.927Z",
+        "end_date": "2023-08-14T15:44:12.080Z",
+        "created_at": "2023-08-14T02:27:05.793Z",
+        "updated_at": "2023-08-13T19:42:21.905Z",
+        "property_id": "66266068-e2ea-48dc-b22a-01c6ea3f2b06",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6af892b2-c0cf-4f64-9700-326395576cfc",
+        "email": "Jonatan.Raynor3@gmail.com",
+        "firstName": "Hiram",
+        "lastName": "Mohr-McGlynn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1122.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "72e65e61-cc96-4c24-ab9c-9a66ca31003e",
+        "email": "Glennie_Emmerich@hotmail.com",
+        "firstName": "Bradley",
+        "lastName": "Russel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95729722",
+        "tenantId": null
+      },
+      {
+        "reference": "ed67bfc1-53fd-4fe9-8fe0-3c7fb5ad3be0",
+        "email": "Kip56@yahoo.com",
+        "firstName": "Mohamed",
+        "lastName": "Sauer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19795850",
+        "tenantId": null
+      },
+      {
+        "reference": "98375670-ea6c-4029-a587-b8b965e3a14a",
+        "email": "Guido98@gmail.com",
+        "firstName": "Brittany",
+        "lastName": "Hirthe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11924571",
+        "tenantId": null
+      },
+      {
+        "reference": "0c1ffe1a-0d06-460f-8638-5acf7c865e49",
+        "email": "Clair41@gmail.com",
+        "firstName": "Joesph",
+        "lastName": "Donnelly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74827745",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "property": [
+      {
+        "id": "827469e3-12f6-4b45-899f-5cf03e5f546c",
+        "name": "Cozy Cottage",
+        "type": "Residential",
+        "created_at": "2023-08-14T06:57:47.024Z",
+        "updated_at": "2023-08-14T13:38:31.280Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5763fc2d-86ab-4dd7-9de3-a5b5a5a6dee4",
+        "name": "Modern Condo",
+        "type": "Commercial",
+        "created_at": "2023-08-14T07:18:51.472Z",
+        "updated_at": "2023-08-14T16:25:24.031Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3f9e9390-2aee-4813-a17f-381370b63ba5",
+        "name": "Spacious Villa",
+        "type": "Vacation",
+        "created_at": "2023-08-14T15:44:18.566Z",
+        "updated_at": "2023-08-14T10:54:17.673Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "75a4a9ce-8472-4e2e-bc82-1949b81508be",
+        "name": "Rustic Cabin",
+        "type": "Industrial",
+        "created_at": "2023-08-13T17:42:45.772Z",
+        "updated_at": "2023-08-14T09:09:51.238Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3039b438-92d9-470d-903b-53a73a4aa13a",
+        "name": "Luxury Mansion",
+        "type": "Retail",
+        "created_at": "2023-08-14T03:06:07.144Z",
+        "updated_at": "2023-08-13T18:46:38.064Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "6fa7b5e4-3aae-41ff-863c-dbb486ad1eda",
+        "start_date": "2023-08-14T05:27:31.605Z",
+        "end_date": "2023-08-14T04:51:43.247Z",
+        "created_at": "2023-08-14T15:51:08.198Z",
+        "updated_at": "2023-08-13T23:35:40.506Z",
+        "property_id": "3039b438-92d9-470d-903b-53a73a4aa13a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7581bca6-0219-4738-96fe-64be79f0cd68",
+        "start_date": "2023-08-13T17:21:18.579Z",
+        "end_date": "2023-08-14T02:15:23.503Z",
+        "created_at": "2023-08-14T01:46:10.945Z",
+        "updated_at": "2023-08-14T15:25:17.860Z",
+        "property_id": "3039b438-92d9-470d-903b-53a73a4aa13a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe292af3-3adf-4f3e-acea-68ab186b5c05",
+        "start_date": "2023-08-14T04:35:45.260Z",
+        "end_date": "2023-08-14T01:31:01.398Z",
+        "created_at": "2023-08-14T04:10:50.033Z",
+        "updated_at": "2023-08-13T22:15:47.286Z",
+        "property_id": "3039b438-92d9-470d-903b-53a73a4aa13a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f9c53f0-580c-4465-80b5-c5a58aa648ca",
+        "start_date": "2023-08-14T13:21:50.225Z",
+        "end_date": "2023-08-14T16:10:43.592Z",
+        "created_at": "2023-08-14T09:18:16.151Z",
+        "updated_at": "2023-08-14T07:01:27.398Z",
+        "property_id": "3f9e9390-2aee-4813-a17f-381370b63ba5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "08c8ae14-075e-4446-816c-12fc5d43cc7f",
+        "start_date": "2023-08-14T06:03:46.848Z",
+        "end_date": "2023-08-13T20:47:14.771Z",
+        "created_at": "2023-08-13T20:57:10.780Z",
+        "updated_at": "2023-08-14T12:08:15.352Z",
+        "property_id": "3f9e9390-2aee-4813-a17f-381370b63ba5",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c846e500-3bf5-44bf-9d79-e351969ab306",
+        "email": "Leonardo42@yahoo.com",
+        "firstName": "Eladio",
+        "lastName": "Paucek",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17746087",
+        "tenantId": null
+      },
+      {
+        "reference": "de406823-be03-4659-870c-54ecd5a93ad5",
+        "email": "Ottis_Rolfson@hotmail.com",
+        "firstName": "Josiah",
+        "lastName": "Huels-Skiles",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/60.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "24d6ae43-7aa7-480e-9583-b194a3b63342",
+        "email": "Troy86@hotmail.com",
+        "firstName": "Zackery",
+        "lastName": "Monahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/514.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "da07926b-89f0-42f6-afd6-fbff5edc3a32",
+        "email": "Lavon_Macejkovic41@yahoo.com",
+        "firstName": "Emilio",
+        "lastName": "Rempel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1247.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5bbaacc4-bfcb-4c11-b559-326b48cc844e",
+        "email": "Brionna53@yahoo.com",
+        "firstName": "Madison",
+        "lastName": "Hyatt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/62.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "property": [
+      {
+        "id": "cc959692-fef5-4344-9d97-111d45e067db",
+        "name": "Cozy Cottage",
+        "type": "Residential",
+        "created_at": "2023-08-14T09:24:09.694Z",
+        "updated_at": "2023-08-14T05:15:18.324Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "66b3d249-82e6-4631-b333-27d5c6a101a9",
+        "name": "Modern Condo",
+        "type": "Commercial",
+        "created_at": "2023-08-14T05:23:49.223Z",
+        "updated_at": "2023-08-13T21:39:35.291Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "07bdd4d3-573c-4057-b62c-bdc8327367e5",
+        "name": "Spacious Villa",
+        "type": "Vacation",
+        "created_at": "2023-08-14T05:09:05.518Z",
+        "updated_at": "2023-08-14T05:04:40.473Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "87357173-c84d-4c34-a154-b15a3084caa2",
+        "name": "Rustic Cabin",
+        "type": "Industrial",
+        "created_at": "2023-08-14T07:50:59.966Z",
+        "updated_at": "2023-08-14T02:23:27.160Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c0da99e7-816e-4d10-9325-d1efa7778b2e",
+        "name": "Luxury Mansion",
+        "type": "Retail",
+        "created_at": "2023-08-14T10:33:34.290Z",
+        "updated_at": "2023-08-14T07:36:15.340Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "d07a3b90-df11-45d8-83a7-802446ae21ff",
+        "start_date": "2023-08-14T03:39:40.137Z",
+        "end_date": "2023-08-14T00:01:28.435Z",
+        "created_at": "2023-08-14T03:03:29.164Z",
+        "updated_at": "2023-08-14T05:30:15.462Z",
+        "property_id": "07bdd4d3-573c-4057-b62c-bdc8327367e5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "48b1895a-804b-41b4-b3f5-125747960266",
+        "start_date": "2023-08-14T01:57:24.188Z",
+        "end_date": "2023-08-14T09:47:53.153Z",
+        "created_at": "2023-08-13T20:00:31.983Z",
+        "updated_at": "2023-08-14T06:03:28.088Z",
+        "property_id": "cc959692-fef5-4344-9d97-111d45e067db",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb36183d-9fe7-4575-bc69-56fdcdf3f45d",
+        "start_date": "2023-08-14T13:34:12.059Z",
+        "end_date": "2023-08-13T22:53:47.742Z",
+        "created_at": "2023-08-14T16:11:25.647Z",
+        "updated_at": "2023-08-13T20:27:42.957Z",
+        "property_id": "07bdd4d3-573c-4057-b62c-bdc8327367e5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "731ab96c-187b-4b7d-ab07-79a4905ce372",
+        "start_date": "2023-08-14T13:17:55.424Z",
+        "end_date": "2023-08-14T01:44:09.096Z",
+        "created_at": "2023-08-14T08:55:55.940Z",
+        "updated_at": "2023-08-14T12:56:58.919Z",
+        "property_id": "87357173-c84d-4c34-a154-b15a3084caa2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0b28953-fe2b-4101-9a64-0c85bf683bcc",
+        "start_date": "2023-08-14T05:53:26.922Z",
+        "end_date": "2023-08-14T04:28:03.267Z",
+        "created_at": "2023-08-14T11:42:38.952Z",
+        "updated_at": "2023-08-14T07:02:22.536Z",
+        "property_id": "c0da99e7-816e-4d10-9325-d1efa7778b2e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "00d7889e-0826-4322-acd1-650ac68fa19e",
+        "email": "Rudy_Heaney@yahoo.com",
+        "firstName": "Brian",
+        "lastName": "Farrell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87168818",
+        "tenantId": null
+      },
+      {
+        "reference": "be83d68e-6ba8-4635-a889-01f8c1f36a5a",
+        "email": "Caleigh_Nikolaus@yahoo.com",
+        "firstName": "Saige",
+        "lastName": "Douglas",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1174.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "548d72f5-6f16-4168-8d4b-2cb8ebad355b",
+        "email": "Josiah.Kutch@gmail.com",
+        "firstName": "Bailee",
+        "lastName": "Kunze",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26255896",
+        "tenantId": null
+      },
+      {
+        "reference": "e6407bbf-a71d-42ec-8cfe-a00cd8babb20",
+        "email": "Clinton83@gmail.com",
+        "firstName": "Margaretta",
+        "lastName": "Botsford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/316.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "aa6d37c6-1103-4cf4-a0d1-553705b80a06",
+        "email": "Stephany.Schneider19@hotmail.com",
+        "firstName": "Larry",
+        "lastName": "Wehner-Swaniawski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57304174",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "property": [
+      {
+        "id": "78a7ef09-bf25-4411-9845-4585351d273a",
+        "name": "Cozy Cottage",
+        "type": "Residential",
+        "created_at": "2023-08-13T17:43:33.050Z",
+        "updated_at": "2023-08-13T17:08:10.232Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "07571e23-4134-4caf-998e-7eea4b914a83",
+        "name": "Modern Condo",
+        "type": "Commercial",
+        "created_at": "2023-08-14T06:28:09.397Z",
+        "updated_at": "2023-08-14T00:18:44.240Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2b7ea695-bcba-476f-b312-b0e78dd8ed72",
+        "name": "Spacious Villa",
+        "type": "Vacation",
+        "created_at": "2023-08-14T03:13:33.657Z",
+        "updated_at": "2023-08-14T07:57:37.236Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d9279e45-e4b7-457c-93d7-7956c0eb27f3",
+        "name": "Rustic Cabin",
+        "type": "Industrial",
+        "created_at": "2023-08-13T23:21:43.987Z",
+        "updated_at": "2023-08-14T11:39:56.136Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1a214934-6c25-4acb-a015-4cd5c6c11c89",
+        "name": "Luxury Penthouse",
+        "type": "Retail",
+        "created_at": "2023-08-13T16:44:07.623Z",
+        "updated_at": "2023-08-13T22:50:25.629Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "75e47451-9a2b-4c24-860c-354e5d8ac842",
+        "start_date": "2023-08-14T15:45:27.891Z",
+        "end_date": "2023-08-13T20:54:32.042Z",
+        "created_at": "2023-08-14T11:17:39.439Z",
+        "updated_at": "2023-08-14T06:16:45.255Z",
+        "property_id": "1a214934-6c25-4acb-a015-4cd5c6c11c89",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c8ac67d-cb2e-4939-ad89-e446f7b23a61",
+        "start_date": "2023-08-14T04:37:38.314Z",
+        "end_date": "2023-08-14T08:16:43.952Z",
+        "created_at": "2023-08-14T14:16:16.319Z",
+        "updated_at": "2023-08-13T22:47:59.308Z",
+        "property_id": "1a214934-6c25-4acb-a015-4cd5c6c11c89",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3256c643-82cb-4f7a-9ca1-29d0c317f890",
+        "start_date": "2023-08-14T15:15:30.954Z",
+        "end_date": "2023-08-14T04:55:51.760Z",
+        "created_at": "2023-08-13T23:23:17.520Z",
+        "updated_at": "2023-08-14T13:16:17.163Z",
+        "property_id": "1a214934-6c25-4acb-a015-4cd5c6c11c89",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b95c11ba-951c-4a0b-826b-74058a30d6b4",
+        "start_date": "2023-08-14T02:34:35.949Z",
+        "end_date": "2023-08-14T12:26:58.220Z",
+        "created_at": "2023-08-13T18:32:05.287Z",
+        "updated_at": "2023-08-14T07:39:36.514Z",
+        "property_id": "07571e23-4134-4caf-998e-7eea4b914a83",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "50ee8db0-dee9-49d5-a4d7-636368206444",
+        "start_date": "2023-08-14T09:01:31.870Z",
+        "end_date": "2023-08-14T01:55:31.683Z",
+        "created_at": "2023-08-14T07:42:59.678Z",
+        "updated_at": "2023-08-14T12:53:27.452Z",
+        "property_id": "2b7ea695-bcba-476f-b312-b0e78dd8ed72",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8f734ca3-af34-4e4c-b90f-d983a009b2dd",
+        "email": "Sonia_Quitzon47@gmail.com",
+        "firstName": "Hailee",
+        "lastName": "Bednar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64305850",
+        "tenantId": null
+      },
+      {
+        "reference": "df9f409f-27fb-4db2-88ee-4d3c281a10d8",
+        "email": "Sandrine46@gmail.com",
+        "firstName": "Kirstin",
+        "lastName": "Metz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/957.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f9e63fb7-e178-41ee-9082-adcb8ea6d79c",
+        "email": "Earlene53@gmail.com",
+        "firstName": "Ryder",
+        "lastName": "Cremin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56299279",
+        "tenantId": null
+      },
+      {
+        "reference": "a61607af-2f2e-4184-bd8a-1e0500fd8488",
+        "email": "Mac.Sauer@hotmail.com",
+        "firstName": "Herminia",
+        "lastName": "Torphy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24226462",
+        "tenantId": null
+      },
+      {
+        "reference": "6751591d-9cac-4131-b151-3463aab13aa6",
+        "email": "Mohammed.Kautzer85@hotmail.com",
+        "firstName": "Dan",
+        "lastName": "Runolfsson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63436024",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "property": [
+      {
+        "id": "1571c78b-0f9e-418a-b6fc-ff548e37d454",
+        "name": "Cozy Cottage",
+        "type": "Residential",
+        "created_at": "2023-08-14T02:12:37.173Z",
+        "updated_at": "2023-08-13T20:38:48.785Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "dd271317-7eff-47e5-a55b-6058b491d2cf",
+        "name": "Modern Condo",
+        "type": "Commercial",
+        "created_at": "2023-08-14T01:00:14.570Z",
+        "updated_at": "2023-08-14T12:12:15.070Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7abff638-a792-4787-a343-a66f4f5868e3",
+        "name": "Spacious Villa",
+        "type": "Vacation",
+        "created_at": "2023-08-14T10:45:16.300Z",
+        "updated_at": "2023-08-13T18:29:22.258Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b365b057-601c-4e16-b568-1494ebf4732f",
+        "name": "Rustic Cabin",
+        "type": "Industrial",
+        "created_at": "2023-08-14T08:58:23.426Z",
+        "updated_at": "2023-08-14T08:16:48.374Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d33446d6-717f-409c-9180-0d00ab4ec7cc",
+        "name": "Luxury Penthouse",
+        "type": "Retail",
+        "created_at": "2023-08-13T20:08:39.536Z",
+        "updated_at": "2023-08-14T00:36:32.013Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "8137f47e-67fb-4eaa-b690-68067a5696f0",
+        "start_date": "2023-08-14T14:50:54.017Z",
+        "end_date": "2023-08-14T07:12:15.041Z",
+        "created_at": "2023-08-13T23:26:00.064Z",
+        "updated_at": "2023-08-13T17:40:48.874Z",
+        "property_id": "b365b057-601c-4e16-b568-1494ebf4732f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e0b2bde-bbfc-4aa2-a36a-75bc602cb093",
+        "start_date": "2023-08-14T10:52:03.133Z",
+        "end_date": "2023-08-13T18:22:45.125Z",
+        "created_at": "2023-08-14T11:24:53.910Z",
+        "updated_at": "2023-08-14T02:31:49.181Z",
+        "property_id": "dd271317-7eff-47e5-a55b-6058b491d2cf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3eb2a949-7c45-4ad5-9f0d-0fe614a6bb73",
+        "start_date": "2023-08-14T14:26:01.805Z",
+        "end_date": "2023-08-14T14:11:52.593Z",
+        "created_at": "2023-08-14T13:40:44.907Z",
+        "updated_at": "2023-08-14T09:47:52.479Z",
+        "property_id": "7abff638-a792-4787-a343-a66f4f5868e3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1159b4fd-5268-4cd5-b190-a7db69e839be",
+        "start_date": "2023-08-14T11:12:02.141Z",
+        "end_date": "2023-08-14T13:33:23.515Z",
+        "created_at": "2023-08-14T00:21:54.736Z",
+        "updated_at": "2023-08-13T21:45:34.658Z",
+        "property_id": "dd271317-7eff-47e5-a55b-6058b491d2cf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "80f524ea-ae97-47b2-95ed-75fc9a530969",
+        "start_date": "2023-08-13T17:29:50.370Z",
+        "end_date": "2023-08-14T09:21:00.968Z",
+        "created_at": "2023-08-14T08:45:07.074Z",
+        "updated_at": "2023-08-14T04:43:40.859Z",
+        "property_id": "1571c78b-0f9e-418a-b6fc-ff548e37d454",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "68b22cbd-3582-405a-bfb9-658750b947f6",
+        "email": "Lou93@yahoo.com",
+        "firstName": "Clay",
+        "lastName": "Goldner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/9.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "435edc11-9e63-4f74-99c3-e433e2e3ba8f",
+        "email": "Easter45@hotmail.com",
+        "firstName": "Kristian",
+        "lastName": "Kozey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14320662",
+        "tenantId": null
+      },
+      {
+        "reference": "1686c66a-8452-4b00-849b-96bca58a0c9f",
+        "email": "Coty_Lowe-Lind85@gmail.com",
+        "firstName": "Laron",
+        "lastName": "Kihn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/55.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bea681ab-c115-4d76-815d-216ec3ee4935",
+        "email": "Eugene.Goodwin@hotmail.com",
+        "firstName": "Lizzie",
+        "lastName": "Auer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1096.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "77541406-6989-4d6d-854d-b2656f535047",
+        "email": "Seamus75@gmail.com",
+        "firstName": "Zoey",
+        "lastName": "Dooley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/446.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "property": [
+      {
+        "id": "56dbc5d6-1d17-4bd9-8231-fea9f9871350",
+        "name": "Cozy Cottage",
+        "type": "Residential",
+        "created_at": "2023-08-13T18:48:28.566Z",
+        "updated_at": "2023-08-14T04:44:18.433Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e32504b3-25f7-486a-84cf-931ead6274b7",
+        "name": "Modern Condo",
+        "type": "Commercial",
+        "created_at": "2023-08-14T16:39:08.849Z",
+        "updated_at": "2023-08-14T04:48:13.855Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b8bf062a-d05e-4348-b112-726003c21d54",
+        "name": "Spacious Villa",
+        "type": "Vacation",
+        "created_at": "2023-08-14T11:47:22.836Z",
+        "updated_at": "2023-08-14T10:36:13.322Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5502e600-9f9e-4a45-99c1-09d183c29fe9",
+        "name": "Rustic Cabin",
+        "type": "Industrial",
+        "created_at": "2023-08-14T14:23:20.032Z",
+        "updated_at": "2023-08-14T07:59:08.746Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5ab84284-3962-4192-884c-c4f3ee8c2268",
+        "name": "Luxury Penthouse",
+        "type": "Retail",
+        "created_at": "2023-08-14T11:00:20.876Z",
+        "updated_at": "2023-08-13T23:37:11.981Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "a7ca5b16-9035-44bf-99e4-ea3224ec494b",
+        "start_date": "2023-08-14T00:42:20.944Z",
+        "end_date": "2023-08-14T00:05:29.239Z",
+        "created_at": "2023-08-14T16:30:37.887Z",
+        "updated_at": "2023-08-14T01:05:02.385Z",
+        "property_id": "56dbc5d6-1d17-4bd9-8231-fea9f9871350",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b3e1b84f-61fa-4972-808c-6426d34148bf",
+        "start_date": "2023-08-13T20:24:44.688Z",
+        "end_date": "2023-08-14T01:05:22.363Z",
+        "created_at": "2023-08-14T15:26:02.662Z",
+        "updated_at": "2023-08-14T08:40:36.602Z",
+        "property_id": "5ab84284-3962-4192-884c-c4f3ee8c2268",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1842a24d-dc6a-43be-9cd7-8b38759693ef",
+        "start_date": "2023-08-14T04:31:34.694Z",
+        "end_date": "2023-08-14T12:04:39.615Z",
+        "created_at": "2023-08-14T00:25:11.757Z",
+        "updated_at": "2023-08-13T20:58:42.333Z",
+        "property_id": "5502e600-9f9e-4a45-99c1-09d183c29fe9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b92982e9-5bbd-4183-9125-9e2e783b9dec",
+        "start_date": "2023-08-14T06:37:07.112Z",
+        "end_date": "2023-08-14T01:05:48.341Z",
+        "created_at": "2023-08-14T12:43:05.907Z",
+        "updated_at": "2023-08-14T14:59:53.049Z",
+        "property_id": "56dbc5d6-1d17-4bd9-8231-fea9f9871350",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c774d34-8d2d-454e-baaf-45d6d4651055",
+        "start_date": "2023-08-14T03:54:24.575Z",
+        "end_date": "2023-08-14T14:50:57.505Z",
+        "created_at": "2023-08-14T10:15:43.803Z",
+        "updated_at": "2023-08-14T14:37:58.004Z",
+        "property_id": "5502e600-9f9e-4a45-99c1-09d183c29fe9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7381069e-3e65-4ae5-86ef-ad9278253cab",
+        "email": "Rose.Stoltenberg53@gmail.com",
+        "firstName": "Kailyn",
+        "lastName": "Bernier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86464134",
+        "tenantId": null
+      },
+      {
+        "reference": "9d1eef72-350b-4496-b4b0-7fab9eec4df5",
+        "email": "Josephine.Lang@hotmail.com",
+        "firstName": "Margarette",
+        "lastName": "Crist",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92507349",
+        "tenantId": null
+      },
+      {
+        "reference": "3f915dab-52f6-4103-9bf6-8db8db8c376d",
+        "email": "Andres_Bergnaum51@gmail.com",
+        "firstName": "Alisha",
+        "lastName": "Parisian",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/759.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c5e59dc6-2487-4813-ac80-99cb89f676ef",
+        "email": "Daisy81@yahoo.com",
+        "firstName": "Nicholas",
+        "lastName": "Gerhold",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73198726",
+        "tenantId": null
+      },
+      {
+        "reference": "c3d08986-0e0a-4cfa-a6fe-6152ebed3a11",
+        "email": "Lafayette_Watsica40@yahoo.com",
+        "firstName": "Sandra",
+        "lastName": "Reynolds",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/611.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "property": [
+      {
+        "id": "e11e4e9b-abb1-4598-bf3b-acd76a032f32",
+        "name": "Luxury Villa",
+        "type": "Residential",
+        "created_at": "2023-08-14T08:11:41.115Z",
+        "updated_at": "2023-08-14T02:33:08.863Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5c79b630-263d-4b0d-b714-f5dab811e336",
+        "name": "Cozy Cottage",
+        "type": "Commercial",
+        "created_at": "2023-08-13T17:21:11.813Z",
+        "updated_at": "2023-08-14T06:56:55.338Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "25324ad8-95b4-448b-aaff-31ace18810e1",
+        "name": "Modern Apartment",
+        "type": "Industrial",
+        "created_at": "2023-08-14T01:50:48.759Z",
+        "updated_at": "2023-08-13T22:01:39.813Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "56e2905c-03d8-4f66-996c-d259fdf0c14a",
+        "name": "Spacious Condo",
+        "type": "Vacation",
+        "created_at": "2023-08-13T20:21:56.490Z",
+        "updated_at": "2023-08-14T09:01:06.300Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "181ff7b9-aec8-491b-b765-9ba8c50910cc",
+        "name": "Charming Bungalow",
+        "type": "Investment",
+        "created_at": "2023-08-14T12:26:22.957Z",
+        "updated_at": "2023-08-13T18:51:12.800Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "875bfdcc-0adb-47a2-8016-e43f7b5b3327",
+        "start_date": "2023-08-13T23:48:30.183Z",
+        "end_date": "2023-08-14T14:41:07.403Z",
+        "created_at": "2023-08-14T06:01:39.808Z",
+        "updated_at": "2023-08-14T04:33:05.100Z",
+        "property_id": "5c79b630-263d-4b0d-b714-f5dab811e336",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ba2ac62-cad9-45b9-80ab-7ea79a7e712a",
+        "start_date": "2023-08-13T18:37:11.927Z",
+        "end_date": "2023-08-13T20:16:26.858Z",
+        "created_at": "2023-08-14T14:05:10.110Z",
+        "updated_at": "2023-08-14T11:28:41.308Z",
+        "property_id": "56e2905c-03d8-4f66-996c-d259fdf0c14a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "955154dd-6f13-4cb7-94d7-378cf75de16b",
+        "start_date": "2023-08-14T07:22:28.496Z",
+        "end_date": "2023-08-13T22:22:26.526Z",
+        "created_at": "2023-08-14T15:58:41.409Z",
+        "updated_at": "2023-08-14T12:34:25.765Z",
+        "property_id": "56e2905c-03d8-4f66-996c-d259fdf0c14a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41ee7968-b608-43ec-a19e-1ed5dd729a55",
+        "start_date": "2023-08-14T01:44:01.777Z",
+        "end_date": "2023-08-13T18:25:44.256Z",
+        "created_at": "2023-08-14T13:09:15.672Z",
+        "updated_at": "2023-08-14T04:38:17.248Z",
+        "property_id": "5c79b630-263d-4b0d-b714-f5dab811e336",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "44d63ac5-b958-4b1e-aede-566b037be1f9",
+        "start_date": "2023-08-14T06:06:35.278Z",
+        "end_date": "2023-08-13T18:52:42.332Z",
+        "created_at": "2023-08-13T22:10:33.473Z",
+        "updated_at": "2023-08-14T03:10:34.546Z",
+        "property_id": "5c79b630-263d-4b0d-b714-f5dab811e336",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7a71ec71-2c5e-4441-be3b-6b812304ff12",
+        "email": "Rahul_Yundt@hotmail.com",
+        "firstName": "Piper",
+        "lastName": "Stokes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36801102",
+        "tenantId": null
+      },
+      {
+        "reference": "f3769a76-754d-4ee6-8ae9-9b2448ae785a",
+        "email": "Nikko19@yahoo.com",
+        "firstName": "Adalberto",
+        "lastName": "Gerhold",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35817555",
+        "tenantId": null
+      },
+      {
+        "reference": "7a02cb32-ccc9-4615-9646-c2ab965a4ca7",
+        "email": "Autumn_Wilderman@hotmail.com",
+        "firstName": "Delilah",
+        "lastName": "Beer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/924.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bfa72460-a156-4877-bdb3-4bfa8044c4da",
+        "email": "Jamison54@hotmail.com",
+        "firstName": "Mandy",
+        "lastName": "Simonis",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62487180",
+        "tenantId": null
+      },
+      {
+        "reference": "c6073b2c-75ca-49e6-b38b-bf6ba1116edf",
+        "email": "Destiney_Huels@yahoo.com",
+        "firstName": "Lowell",
+        "lastName": "Bradtke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/326.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "property": [
+      {
+        "id": "db308177-0201-47fe-896b-b4666b42b6ca",
+        "name": "Cozy Cottage",
+        "type": "Residential",
+        "created_at": "2023-08-14T01:42:58.527Z",
+        "updated_at": "2023-08-13T23:16:56.057Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5fcc1cff-2699-4d42-8d2e-2c00b0498fda",
+        "name": "Modern Condo",
+        "type": "Commercial",
+        "created_at": "2023-08-14T12:18:27.607Z",
+        "updated_at": "2023-08-13T17:45:47.014Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "95e11cf5-c8b0-469d-87a2-a619ad76618c",
+        "name": "Spacious Villa",
+        "type": "Vacation",
+        "created_at": "2023-08-13T18:16:44.541Z",
+        "updated_at": "2023-08-14T08:32:12.859Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "67af0b57-c024-4fcd-99f8-2aaaef88ec25",
+        "name": "Rustic Cabin",
+        "type": "Industrial",
+        "created_at": "2023-08-13T18:48:14.098Z",
+        "updated_at": "2023-08-14T12:52:51.518Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "565c24ee-d299-4954-bdd5-bb5b4072ac56",
+        "name": "Luxury Mansion",
+        "type": "Retail",
+        "created_at": "2023-08-14T00:01:31.242Z",
+        "updated_at": "2023-08-14T10:16:04.741Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "3e93920c-0372-4c84-a528-23d9c1031ed2",
+        "start_date": "2023-08-14T00:37:02.399Z",
+        "end_date": "2023-08-14T10:05:50.258Z",
+        "created_at": "2023-08-14T05:19:39.914Z",
+        "updated_at": "2023-08-14T13:58:20.214Z",
+        "property_id": "95e11cf5-c8b0-469d-87a2-a619ad76618c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "08ac1f18-bcbb-4275-96ab-ccec0888b354",
+        "start_date": "2023-08-14T02:54:18.578Z",
+        "end_date": "2023-08-14T00:26:29.164Z",
+        "created_at": "2023-08-14T00:28:04.744Z",
+        "updated_at": "2023-08-14T06:48:13.745Z",
+        "property_id": "565c24ee-d299-4954-bdd5-bb5b4072ac56",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ad8ab08-90bf-4384-8006-ccbab74e9d29",
+        "start_date": "2023-08-14T12:22:02.689Z",
+        "end_date": "2023-08-14T16:36:24.370Z",
+        "created_at": "2023-08-14T16:34:52.731Z",
+        "updated_at": "2023-08-13T21:45:49.769Z",
+        "property_id": "95e11cf5-c8b0-469d-87a2-a619ad76618c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df3415d6-d0d4-4062-a2b6-62ba0e78e66a",
+        "start_date": "2023-08-13T21:58:27.592Z",
+        "end_date": "2023-08-14T13:46:11.159Z",
+        "created_at": "2023-08-14T01:15:24.126Z",
+        "updated_at": "2023-08-13T23:12:44.089Z",
+        "property_id": "565c24ee-d299-4954-bdd5-bb5b4072ac56",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e1f7a819-f818-4638-811d-f178a658dc63",
+        "start_date": "2023-08-14T11:31:19.776Z",
+        "end_date": "2023-08-13T20:42:23.459Z",
+        "created_at": "2023-08-13T21:36:25.068Z",
+        "updated_at": "2023-08-14T06:05:11.214Z",
+        "property_id": "95e11cf5-c8b0-469d-87a2-a619ad76618c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e69313b4-3cf1-455b-8401-80faec419585",
+        "email": "Jacklyn_Franecki44@gmail.com",
+        "firstName": "Tanner",
+        "lastName": "Botsford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7723461",
+        "tenantId": null
+      },
+      {
+        "reference": "6e4505cf-aac1-48c7-8010-cf9714342de2",
+        "email": "Salvador.Kozey47@yahoo.com",
+        "firstName": "Marlen",
+        "lastName": "Bogan-Anderson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19863182",
+        "tenantId": null
+      },
+      {
+        "reference": "c36c9a94-84d1-49e2-bde0-6983deaddb2b",
+        "email": "Jarvis.Farrell-Bailey@gmail.com",
+        "firstName": "Troy",
+        "lastName": "McGlynn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81400294",
+        "tenantId": null
+      },
+      {
+        "reference": "6ce25136-7d10-4a32-bf11-79a9a015b706",
+        "email": "Noemi14@gmail.com",
+        "firstName": "Rahul",
+        "lastName": "Davis",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/598.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e4da9fc2-e4bc-42bc-877f-26478c8759be",
+        "email": "Nina.McGlynn@hotmail.com",
+        "firstName": "Bo",
+        "lastName": "Kub",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/698.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "property": [
+      {
+        "id": "3ad47058-a4a9-40a1-9f5d-cad82798088c",
+        "name": "Cozy Cottage",
+        "type": "Residential",
+        "created_at": "2023-08-13T18:51:40.952Z",
+        "updated_at": "2023-08-14T10:37:39.899Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "de19188a-21a9-4e2b-9e0d-8fda31208755",
+        "name": "Modern Condo",
+        "type": "Commercial",
+        "created_at": "2023-08-14T05:42:04.557Z",
+        "updated_at": "2023-08-13T23:46:18.459Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9c01b524-69a0-4030-b521-a31709d79bbf",
+        "name": "Spacious Villa",
+        "type": "Vacation",
+        "created_at": "2023-08-13T20:20:32.510Z",
+        "updated_at": "2023-08-14T04:38:18.064Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ebc8c4d4-b175-4edc-9d8c-4c7ab66bb210",
+        "name": "Rustic Cabin",
+        "type": "Industrial",
+        "created_at": "2023-08-14T10:55:31.201Z",
+        "updated_at": "2023-08-14T12:06:47.361Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b2f93776-018f-4977-9483-7cae2b1280f6",
+        "name": "Luxury Penthouse",
+        "type": "Retail",
+        "created_at": "2023-08-14T06:35:20.763Z",
+        "updated_at": "2023-08-14T08:30:57.953Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "db81b905-eceb-42a5-a53a-6f1d9f0b7723",
+        "start_date": "2023-08-13T22:47:43.540Z",
+        "end_date": "2023-08-14T13:14:44.629Z",
+        "created_at": "2023-08-14T04:26:48.819Z",
+        "updated_at": "2023-08-14T11:29:05.739Z",
+        "property_id": "ebc8c4d4-b175-4edc-9d8c-4c7ab66bb210",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "31a24bfe-e194-4678-9da9-616dff3b9cc5",
+        "start_date": "2023-08-14T07:22:42.694Z",
+        "end_date": "2023-08-13T17:15:25.064Z",
+        "created_at": "2023-08-14T12:02:43.923Z",
+        "updated_at": "2023-08-14T14:25:42.433Z",
+        "property_id": "ebc8c4d4-b175-4edc-9d8c-4c7ab66bb210",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a0cb4dac-6005-42f9-971c-a13caf9a7977",
+        "start_date": "2023-08-13T22:45:46.154Z",
+        "end_date": "2023-08-14T07:07:11.676Z",
+        "created_at": "2023-08-13T17:37:03.814Z",
+        "updated_at": "2023-08-13T22:25:59.697Z",
+        "property_id": "b2f93776-018f-4977-9483-7cae2b1280f6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c90bccc-f70b-4b4b-8c54-c4c4a847594a",
+        "start_date": "2023-08-14T02:44:35.496Z",
+        "end_date": "2023-08-14T15:23:59.756Z",
+        "created_at": "2023-08-14T10:02:14.776Z",
+        "updated_at": "2023-08-14T08:26:00.738Z",
+        "property_id": "ebc8c4d4-b175-4edc-9d8c-4c7ab66bb210",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9dd9b450-45d5-4040-b94b-8936b5bb767b",
+        "start_date": "2023-08-14T10:04:25.961Z",
+        "end_date": "2023-08-14T07:38:32.720Z",
+        "created_at": "2023-08-13T17:47:57.096Z",
+        "updated_at": "2023-08-14T02:19:49.046Z",
+        "property_id": "ebc8c4d4-b175-4edc-9d8c-4c7ab66bb210",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f5ff929f-5aca-48dd-871f-dd70949f705a",
+        "email": "Zora_Bergnaum@gmail.com",
+        "firstName": "Pink",
+        "lastName": "Dicki",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/215.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e4b35156-5b27-46ee-9137-b18457cb97c0",
+        "email": "Laurine_Witting@yahoo.com",
+        "firstName": "Corbin",
+        "lastName": "Greenfelder",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/494.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f71bf245-badf-4e64-ae69-9035beea7913",
+        "email": "Lesley.Stroman@hotmail.com",
+        "firstName": "Clementine",
+        "lastName": "Champlin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34697278",
+        "tenantId": null
+      },
+      {
+        "reference": "ffa91495-e903-4611-b4fc-1b6f937c4aa2",
+        "email": "Cordell.Dickinson35@yahoo.com",
+        "firstName": "Carolina",
+        "lastName": "Funk",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1120.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d9a49370-e86e-4efb-a444-ad8c7c93d1d7",
+        "email": "Lexus1@hotmail.com",
+        "firstName": "Lonny",
+        "lastName": "Bins",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/234.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
